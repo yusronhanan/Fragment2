@@ -23,7 +23,6 @@ public class View1Fragment extends Fragment {
         // Required empty public constructor
     }
 
-    // TODO: Rename and change types and number of parameters
     public static View1Fragment newInstance(int image, String text) {
         View1Fragment fragment = new View1Fragment();
         Bundle args = new Bundle();
@@ -45,7 +44,6 @@ public class View1Fragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_view1, container, false);
         ivImage = (ImageView) view.findViewById(R.id.imageView);
         tvText = (TextView) view.findViewById(R.id.textView);
